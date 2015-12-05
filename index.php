@@ -4,10 +4,10 @@
 */
 define('PDF_DIR', $_SERVER['DOCUMENT_ROOT'].'/plugins/customPdf/pdfFiles/');
 
-$dbConfig['host'] = 'mysql5.5force.de';
-$dbConfig['database'] = 'db290461_246';
-$dbConfig['username'] = 'db290461_246';
-$dbConfig['password'] = 'f-p8vPvG7N2f';
+$dbConfig['host'] = 'localhost';
+$dbConfig['database'] = 'mydb';
+$dbConfig['username'] = 'username';
+$dbConfig['password'] = 'password';
 
 // convert array to object
 $dbConfig = (object) $dbConfig;
