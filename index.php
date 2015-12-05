@@ -2,7 +2,7 @@
 /**
 * define database connection configuration
 */
-define('PDF_DIR', $_SERVER['DOCUMENT_ROOT'].'/plugins/customPdf/pdfFiles/');
+define('PDF_DIR', $_SERVER['DOCUMENT_ROOT'].'/pathtosavepdf/');
 
 $dbConfig['host'] = 'localhost';
 $dbConfig['database'] = 'mydb';
